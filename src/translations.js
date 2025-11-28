@@ -42,13 +42,14 @@ export const translations = {
     
     // Contact Section
     contactTitle: 'Get In Touch',
-    contactHeading: "Let's talk about everything!",
-    contactSubtitle: 'Looking for a PFE internship opportunity. Feel free to reach out!',
+    contactHeading: "Let's talk ",
+    contactSubtitle: 'Feel free to reach out to me for any questions or opportunities. I\'ll get back to you as soon as possible!',
     email: 'Email',
     phone: 'Phone',
     location: 'Location',
     cvVideo: 'CV Video',
     downloadCV: 'Download CV',
+    
     yourName: 'Your Name',
     yourEmail: 'Your Email',
     subject: 'Subject',
@@ -107,7 +108,7 @@ export const translations = {
     // Contact Section
     contactTitle: 'Contactez-moi',
     contactHeading: 'Parlons de tout !',
-    contactSubtitle: 'À la recherche d\'une opportunité de stage PFE. N\'hésitez pas à me contacter !',
+    contactSubtitle: 'N\'hésitez pas à me contacter pour toute question ou opportunité. Je vous répondrai dans les plus brefs délais !',
     email: 'Email',
     phone: 'Téléphone',
     location: 'Localisation',
