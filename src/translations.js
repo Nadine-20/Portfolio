@@ -13,9 +13,7 @@ export const translations = {
     // Hero Section
     heroRole1: 'IoT & Embedded Systems Engineer',
     heroRole2: 'Full-Stack Developer',
-    heroRole3: 'Flutter Developer',
-    heroRole4: 'Smart Home Innovator',
-    heroRole5: 'Face Recognition Developer',
+   
     heroDescription: 'IoT & Embedded Systems student with hands-on experience in Embedded systems and full-stack development. Passionate about connected technologies and eager to contribute within a collaborative team environment.',
     aboutMe: 'About Me',
     hireMe: 'Hire Me',

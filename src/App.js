@@ -56,9 +56,7 @@ function App() {
       strings: [
         t('heroRole1'),
         t('heroRole2'),
-        t('heroRole3'),
-        t('heroRole4'),
-        t('heroRole5')
+      
       ],
       typeSpeed: 70,
       backSpeed: 40,
