@@ -1,0 +1,146 @@
+.education-section {
+  margin: 2rem auto;
+  padding: 3rem 0;
+}
+
+.education-timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 3rem;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
+}
+
+.education-card {
+  position: relative;
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--border-subtle);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.15);
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -3.5rem;
+  top: 2rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 4px solid var(--bg-main);
+  box-shadow: 0 0 0 3px var(--accent);
+  z-index: 1;
+}
+
+.education-content {
+  width: 100%;
+}
+
+.education-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.education-institution {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.education-institution .icon {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.institution-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text-main);
+  flex: 1;
+}
+
+.education-period {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.education-period .icon {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.education-program {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.education-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-subtle);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--text-main);
+  width: fit-content;
+  margin-top: 0.25rem;
+}
+
+.badge-icon {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.education-description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0.5rem 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .education-timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-marker {
+    left: -2.5rem;
+  }
+
+  .education-card {
+    padding: 1.5rem;
+  }
+
+  .education-institution {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
