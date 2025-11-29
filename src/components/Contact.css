@@ -52,6 +52,20 @@
   flex-shrink: 0;
 }
 
+.detail-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.detail-icon-link:hover .detail-icon {
+  color: var(--accent-dark);
+  transform: scale(1.1);
+}
+
 .contact-detail-item div {
   display: flex;
   flex-direction: column;

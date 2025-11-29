@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FaLinkedinIn, FaEnvelope, FaPhoneAlt, FaCommentDots } from 'react-icons/fa';
+import { FaLinkedinIn, FaEnvelope, FaPhoneAlt, FaCommentDots, FaGithub } from 'react-icons/fa';
 import Typed from 'typed.js';
 import './App.css';
 import Header from './components/Header';
@@ -91,11 +91,14 @@ function App() {
                 <a href="https://www.linkedin.com/in/nadine-mouadhen-3008162b3/" target="_blank" rel="noreferrer">
                   <FaLinkedinIn />
                 </a>
-                <a href="mailto:mouadhennadine1s3@gmail.com">
+                <a href="mailto:mouadhennadine1s3@gmail.com?subject=Contact%20from%20Portfolio" aria-label="Send email to mouadhennadine1s3@gmail.com">
                   <FaEnvelope />
                 </a>
-                <a href="tel:53040844">
+                <a href="tel:+21653040844">
                   <FaPhoneAlt />
+                </a>
+                <a href="https://github.com/Nadine-20" target="_blank" rel="noreferrer" aria-label="Visit GitHub profile">
+                  <FaGithub />
                 </a>
               </div>
             </div>

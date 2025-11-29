@@ -54,20 +54,24 @@ const Contact = () => {
           
           <div className="contact-details">
             <div className="contact-detail-item">
-              <FaEnvelope className="detail-icon" />
+              <a href={`mailto:${contactInfo.email}?subject=Contact%20from%20Portfolio`} className="detail-icon-link" aria-label={`Send email to ${contactInfo.email}`}>
+                <FaEnvelope className="detail-icon" />
+              </a>
               <div>
                 <span className="detail-label">{t('email')}</span>
-                <a href={`mailto:${contactInfo.email}`} className="detail-value">
+                <a href={`mailto:${contactInfo.email}?subject=Contact%20from%20Portfolio`} className="detail-value">
                   {contactInfo.email}
                 </a>
               </div>
             </div>
             
             <div className="contact-detail-item">
-              <FaPhone className="detail-icon" />
+              <a href={`tel:+216${contactInfo.phone}`} className="detail-icon-link">
+                <FaPhone className="detail-icon" />
+              </a>
               <div>
                 <span className="detail-label">{t('phone')}</span>
-                <a href={`tel:${contactInfo.phone}`} className="detail-value">
+                <a href={`tel:+216${contactInfo.phone}`} className="detail-value">
                   {contactInfo.phone}
                 </a>
               </div>
