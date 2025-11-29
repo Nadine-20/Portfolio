@@ -15,7 +15,7 @@ const Education = () => {
       description: 'Specialized in modern embedded systems and IoT technologies'
     },
     {
-      institution: 'High School Ali Bourguiba',
+      institution: 'Ali Bourguiba High School, Sousse',
       program: 'Baccalaureate in Mathematics',
       period: '2022 - 2023',
       location: 'Sousse, Tunisia',
